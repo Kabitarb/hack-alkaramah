@@ -82,7 +82,7 @@ Create a `.env` file in the root directory:
 DATABASE_URL=postgresql://user:password@localhost:5432/teachforall
 
 # AI Service
-GEMINI_API_KEY=your_google_gemini_api_key
+GEMINI_API_KEY=AIzaSyC4jDj75O9FWpvkgWI869kcBFpLvOOstPo
 
 # Image Storage (Supabase)
 SUPABASE_URL=your_supabase_project_url
