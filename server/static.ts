@@ -16,7 +16,7 @@ export function serveStatic(app: Express) {
   }));
 
   // fall through to index.html if the file doesn't exist (SPA routing)
-  app.use("*", (_req, res) => {
+  app.use(/.*/, (_req, res) => {
     res.type("text/html").sendFile(path.resolve(distPath, "index.html"));
   });
 }
